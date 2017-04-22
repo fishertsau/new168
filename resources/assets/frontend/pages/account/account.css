@@ -1,0 +1,26 @@
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.router-link-active {
+  color: darkred;
+  border-bottom: 3px solid darkred;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.router-link-active:visited {
+  color: darkred;
+}
+
+.fade-enter-active, .fade-leave-active {
+  -webkit-transition: opacity .8s;
+  transition: opacity .8s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}

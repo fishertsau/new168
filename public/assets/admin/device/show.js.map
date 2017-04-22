@@ -1,0 +1,1 @@
+{"version":3,"sources":["show.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"show.js","sourcesContent":["var vm = new Vue({\r\n    el: 'body',\r\n    data: {},\r\n    methods: {},\r\n    ready: function () {\r\n    }\r\n});"],"sourceRoot":"/source/"}

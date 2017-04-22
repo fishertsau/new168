@@ -1,0 +1,124 @@
+/*===== Responsive Control ===========*/
+/* default setting for mobile*/
+.rwd-text-30
+  font-size: 30px
+
+.rwd-text-26
+  font-size: 26px
+
+.rwd-text-24
+  font-size: 24px
+
+.rwd-text-22
+  font-size: 22px
+
+.rwd-text-20
+  font-size: 20px
+
+.rwd-text-16
+  font-size: 16px
+
+
+.visible-desktop-inline,
+.visible-desktop-block,
+.visible-desktop-cell
+  display: none
+
+
+.visible-mobile-inline
+  display: inline
+
+
+.visible-mobile-block
+  display: block
+
+.rwd-padding-0-3
+  padding: 0
+
+.rwd-padding-0-15
+  padding: 0
+
+
+input.rwd-input-txt-20,
+input.rwd-input-txt-20::-webkit-input-placeholder
+  font-size: 20px
+  line-height: 2
+
+span.timestamp
+  display: block
+
+/*X-small screen : Screen-width 767 below*/
+//@media (max-width: 769px)
+
+
+
+/*Small screen : Screen-width 768-991*/
+@media (min-width: 768px) and (max-width: 991px)
+  .rwd-text-20,
+  .rwd-text-24,
+  .rwd-text-22,
+  .rwd-text-26,
+  .rwd-text-30
+    font-size: 16px
+
+
+  .visible-desktop-inline
+    display: inline
+
+
+  .visible-desktop-block
+    display: block
+
+
+  .visible-desktop-cell
+    display: table-cell
+    text-align: center
+
+  .visible-mobile-inline,
+  .visible-mobile-block
+    display: none
+
+  .rwd-padding-0-3
+    padding: 0 3px
+
+
+/*Medium screen : Screen-width 992- above*/
+@media (min-width: 992px)
+  .rwd-text-20,
+  .rwd-text-24,
+  .rwd-text-22,
+  .rwd-text-26,
+  .rwd-text-30
+    font-size: 14px
+
+
+  .visible-desktop-inline
+    display: inline
+
+
+  .visible-desktop-block
+    display: block
+
+
+  .visible-desktop-cell
+    display: table-cell
+    text-align: center
+
+
+  .visible-mobile-inline,
+  .visible-mobile-block
+    display: none
+
+  .rwd-padding-0-3
+    padding: 0 3px
+
+  .rwd-padding-0-15
+    padding: 0 15px
+
+  input.rwd-input-txt-20,
+  input.rwd-input-txt-20::-webkit-input-placeholder
+    font-size: 12px
+    line-height: 1
+
+  span.timestamp
+    display: inline

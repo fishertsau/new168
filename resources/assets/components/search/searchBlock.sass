@@ -1,0 +1,129 @@
+.gearSearchBlock
+  display: -webkit-box
+  display: flex
+  -webkit-box-pack: center
+  justify-content: center
+  -webkit-box-align: center
+  align-items: center
+  height: 40px
+  width: 100%
+
+.gearSearchBlock__query
+  width: 100%
+  background: #ffd600
+  height: 40px
+  display: -webkit-box
+  display: flex
+  -webkit-box-pack: center
+  justify-content: center
+  -webkit-box-align: center
+  align-items: center
+  padding-right: 5px
+
+.gearSearchBlock__query__input__grp--name
+  -webkit-box-flex: 1.5
+  flex: 1.5
+  border: none
+  height: 30px
+  margin: 0 3px
+  padding-left: 5px
+  color: #000
+  width: 100%
+
+.gearSearchBlock__query__input__grp--name:focus
+    outline: 2px solid #ff8c42
+
+.gearSearchBlock__query__input__grp__moreBtn
+    -webkit-box-flex: 0.4
+    flex: 0.4
+    background: #ff8c42
+    color: white
+    height: 30px
+    border: none
+    border-radius: 2px
+    margin: 0 2px
+
+.gearSearchBlock__query__input__grp__moreBtn--selected
+    -webkit-box-flex: 0.53
+    flex: 0.53
+    background: #ffa56b
+
+.gearSearchBlock__query__input__grp--submitBtn
+    -webkit-box-flex: 0.4
+    flex: 0.4
+    background: #ff8c42
+    color: white
+    height: 30px
+    border: none
+    border-radius: 2px
+    margin-left: 2px
+    padding-right: 2px
+
+.gearSearchBlock__queryTerm
+    margin-top: 5px
+
+.gearSearchBlock__queryTerm--item
+    background: white
+    color: black
+    padding-left: 2px
+
+.gearSearchBlock__queryTerm--item--close
+    background: #ffd600
+    color: black
+    padding: 0 0
+    border-left: 1px dotted black
+
+.search-more
+    width: 100%
+    background: #ffd600
+    position: absolute
+    z-index: 100
+
+.gearSearchMoreTerm__heading
+    background: #c0c2c2
+    height: 35px
+    padding: 5px
+
+.gearSearchMoreTerm__blk
+    padding: 3px
+    border-top: 1px solid white
+    border-right: 1px solid white
+
+.priceRangeBtn,
+.useCaseBtn
+    background: white
+    border: 1px dotted black
+    border-radius: 2px
+    padding: 0 2px
+    margin: 2px 2px
+
+.item-primary--selected
+    background: #ffd600
+
+.queryTerm-checkbox
+    zoom: 1.5
+
+/*Small screen : Screen-width 768-991*/
+@media (min-width: 768px) and (max-width: 991px)
+  .gearSearchBlock__query__input__grp
+    background: #ffd600
+
+  .queryTerm-checkbox
+    zoom: 1
+
+  .gearSearchMoreTerm
+    background: #eaeae8
+    border: 2px solid gray
+
+/*Medium screen : Screen-width 992- above*/
+@media (min-width: 992px)
+  .gearSearchBlock__query__input__grp
+    background: #ffd600
+
+  .queryTerm-checkbox
+    zoom: 1
+
+  .gearSearchMoreTerm
+    background: #eaeae8
+    border: 2px solid gray
+

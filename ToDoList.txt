@@ -1,0 +1,57 @@
+App Misc
+    ***- FB login, testing version?
+    **- Change Login-fail error message into Chinese/Do authentication in client
+    - User Location Acquisition
+    - "Add to Main page" (note)
+    - 'Func Button': (1)Send message in FB, (2)Send Line Message
+
+
+    Client side
+    - Devices-show
+       * - make "discussions" as vue component
+       * - make "toggleLike" as directive (for commonly use)
+         - move method "filePath" to helpers.js (in components)
+         - move photo "photoDefaultPath" to helpers
+         - edit Discussion (ref. vue ToDo example)
+         - show "user name" in discussions
+
+    - Devices-edit
+        - Email should be confirmed before posting devices for sell
+        - Record reasons when deactivate or delete devcies
+        - List out vendors on the right-side when the cat is chosen
+        - To notify by email that the device is (1)about due, (2)already due
+
+    - Devices-index
+        - hottest search keyword
+        - market price (目前行情)
+       *- list view styling organization
+
+    - Search Tab should become more vivi
+
+    - DeviceController/DeviceRepository
+        . Acceptance Test (FrontDeviceTest.php)
+        . in ajaxHandler (some commands are only allowed for authorized persons)
+
+    Server side
+    - Filterable
+        . testing & refactoring
+        . (bug) if input has only 'page', and keyword is empty, "keyword"
+            is neglected/over-looked)
+
+    - Discussion
+        . event & notification should become general purpose
+        . it is now dependent on Device Model
+
+    - VueComponent
+        . AddressInput.vue
+            . using 'title' as the comparison value for input
+//========================================================================
+Testing
+ -
+
+
+
+Tool
+ - Study php artisan command, and see how it runs PHP in project,
+    e.g. DatabaseSeeder
+ - Let DatabaseSeeder get the external setting

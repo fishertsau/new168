@@ -1,0 +1,116 @@
+[
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773136759
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773137039
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773137154
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773149075
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773149239
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773149471
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773153166
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773153281
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773153394
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773159681
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773159876
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773160071
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773163411
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773163807
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773164052
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff2?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773170116
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.woff?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773170327
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/fonts\/fontawesome-webfont.ttf?v=4.5.0 - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773170508
+    },
+    {
+        "level": "SEVERE",
+        "message": "http:\/\/localhost:8000\/assets\/images\/companyInfo\/iconLogo.png - Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "source": "network",
+        "timestamp": 1490773179796
+    }
+]

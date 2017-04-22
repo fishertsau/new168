@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/*===== Responsive Control ===========*/
+/* default setting for mobile*/
+.rwd-text-30 {
+  font-size: 30px;
+}
+
+.rwd-text-26 {
+  font-size: 26px;
+}
+
+.rwd-text-24 {
+  font-size: 24px;
+}
+
+.rwd-text-22 {
+  font-size: 22px;
+}
+
+.rwd-text-20 {
+  font-size: 20px;
+}
+
+.rwd-text-16 {
+  font-size: 16px;
+}
+
+.visible-desktop-inline,
+.visible-desktop-block,
+.visible-desktop-cell {
+  display: none;
+}
+
+.visible-mobile-inline {
+  display: inline;
+}
+
+.visible-mobile-block {
+  display: block;
+}
+
+.rwd-padding-0-3 {
+  padding: 0;
+}
+
+.rwd-padding-0-15 {
+  padding: 0;
+}
+
+input.rwd-input-txt-20,
+input.rwd-input-txt-20::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 2;
+}
+
+span.timestamp {
+  display: block;
+}
+
+/*X-small screen : Screen-width 767 below*/
+/*Small screen : Screen-width 768-991*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .rwd-text-20,
+  .rwd-text-24,
+  .rwd-text-22,
+  .rwd-text-26,
+  .rwd-text-30 {
+    font-size: 16px;
+  }
+  .visible-desktop-inline {
+    display: inline;
+  }
+  .visible-desktop-block {
+    display: block;
+  }
+  .visible-desktop-cell {
+    display: table-cell;
+    text-align: center;
+  }
+  .visible-mobile-inline,
+  .visible-mobile-block {
+    display: none;
+  }
+  .rwd-padding-0-3 {
+    padding: 0 3px;
+  }
+}
+
+/*Medium screen : Screen-width 992- above*/
+@media (min-width: 992px) {
+  .rwd-text-20,
+  .rwd-text-24,
+  .rwd-text-22,
+  .rwd-text-26,
+  .rwd-text-30 {
+    font-size: 14px;
+  }
+  .visible-desktop-inline {
+    display: inline;
+  }
+  .visible-desktop-block {
+    display: block;
+  }
+  .visible-desktop-cell {
+    display: table-cell;
+    text-align: center;
+  }
+  .visible-mobile-inline,
+  .visible-mobile-block {
+    display: none;
+  }
+  .rwd-padding-0-3 {
+    padding: 0 3px;
+  }
+  .rwd-padding-0-15 {
+    padding: 0 15px;
+  }
+  input.rwd-input-txt-20,
+  input.rwd-input-txt-20::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 1;
+  }
+  span.timestamp {
+    display: inline;
+  }
+}
+
+body {
+  font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  overflow-x: hidden;
+}
+
+.zero-margin {
+  margin: 0;
+}
+
+.zero-padding {
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.note {
+  color: red;
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+.zoom-15 {
+  zoom: 1.5;
+}
+
+.zoom-20 {
+  zoom: 2;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title-primary {
+  color: #3073ae;
+}
+
+.title-success {
+  color: #4ecdc4;
+}
+
+.title-info {
+  color: #2495bf;
+}
+
+.title-warning {
+  color: #ff8c42;
+}
+
+.title-danger {
+  color: #cc0001;
+}
+
+.title-dark, .text-dark {
+  color: #000;
+}
+
+.title-dark-light, .text-dark-light {
+  color: gray;
+}
+
+.line-dark {
+  border: 1px solid #000;
+}
+
+.line-dark--light {
+  border: 1px solid gray;
+}
+
+.line-dark--lighter {
+  border: 1px solid #e6e6e6;
+}
+
+body {
+  background: #dadbdb;
+  margin-top: 50px;
+}
+
+.text-warning {
+  color: #ff8c42;
+}
+
+.content-block {
+  background: white;
+  padding: 20px 15px;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.section-title {
+  margin: 0 0 10px 0;
+}
+
+.mainBlock-in-development {
+  background: white;
+  border: solid 2px orange;
+}
+
+.note-in-development {
+  color: red;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  border-radius: 50%;
+  opacity: 0.6;
+  display: none;
+  background: #ffd600;
+  border: 1px solid #ff8c42;
+  z-index: 100;
+}
+
+#top-navbar-outter-frame,
+#top-navbar {
+  margin: 0;
+  background: white;
+  border-bottom: 6px solid #ffd600;
+}
+
+#top-navbar {
+  border: none;
+}
+
+#navbar-right {
+  position: relative;
+}
+
+#navbar-right .dropdown {
+  position: static;
+}
+
+#navbar-right .dropdown:hover {
+  background: #e6e6e6;
+}
+
+#navbar-right .dropdown-menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  padding: 0;
+  width: 450px;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+#navbar-right .account {
+  position: relative;
+}
+
+.dropdown-menu a {
+  color: #000;
+}
+
+#mobile-navbar {
+  background: #ffd600;
+  padding: 3px;
+  height: 50px;
+}
+
+#mobile-navbar-logo {
+  max-width: 150px;
+  padding-top: 5px;
+}
+
+.nav-tab-content .tab-pane {
+  padding: 5px;
+}
+
+#fixedBottom-navbar {
+  display: -webkit-box;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 65px;
+  padding-top: 3px;
+  z-index: 500;
+  background-color: #ffd600;
+}
+
+#fixedBottom-navbar p {
+  margin: 0;
+}
+
+#fixedBottom-navbar .glyphicon {
+  font-size: 1.6em;
+}
+
+.fixedBottom-navbar__item {
+  -webkit-box-flex: 1;
+  flex: 1;
+  padding-top: 5px;
+}
+
+.slideNavbar {
+  display: none;
+  position: absolute;
+  top: 50px;
+  background: white;
+  left: 0;
+  font-size: 1.6em;
+  z-index: 100;
+}
+
+.slideNavbar button {
+  font-size: 0.6em;
+}
+
+.slideNavbar h3 {
+  font-size: 1.8em;
+}
+
+.slideNavbar h4 {
+  font-size: 1.4em;
+}
+
+.slideNavbar--active {
+  display: block;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+#footer {
+  background: #ffd600;
+  margin: 0;
+}
+
+#copyright-outter-frame {
+  background: #ffd600;
+  margin: 0 0 120px 0;
+}
+
+.photo-bordered, .block-bordered {
+  border: 1px solid gray;
+}
+
+.block-bordered-dark {
+  border: 1px solid #000;
+}
+
+.full-width-photo {
+  max-width: 100%;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-yellow, .text-footer {
+  color: #ffd600;
+}
+
+#footer {
+  background: #282828;
+}
+
+#footer button {
+  text-decoration: none;
+  background: none;
+  border: 1px solid #ff8c42;
+}
+
+#footer button:visited {
+  text-decoration: none;
+}
+
+#footer button:hover {
+  background: white;
+  color: black;
+}
+
+#copyright-frame {
+  height: 70px;
+  background: #ffd600;
+  display: table;
+}
+
+#copyright {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*Small screen : Screen-width 768-991*/
+/*Medium screen : Screen-width 992- above*/
+@media (min-width: 992px) {
+  .main-content,
+  #top-navbar,
+  #copyright {
+    width: 970px;
+    margin: auto;
+  }
+  #back-to-top {
+    bottom: 50px;
+  }
+}

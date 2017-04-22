@@ -1,0 +1,118 @@
+body, li, a, h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑", "Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.note {
+    color: red;
+}
+
+.title-potmaster {
+    color: #505662;
+}
+
+.text-potmaster {
+    color: #606060;
+}
+
+.text-nature {
+    color: #02a98e;
+}
+
+
+/* Josh Style starts here ----- */
+.responsive_nav {
+    background: url(../images/app/nav_icon.png);
+}
+
+
+
+/*===== Responsive Control ===========*/
+/* default setting for mobile*/
+.navRWDStyle,
+.RWDText-24 {
+    font-size: 24px;
+}
+
+.navRWDStyle-20,
+.RWDText-20 {
+    font-size: 20px;
+}
+
+.visible-desktop-inline,
+.visible-desktop-block,
+.visible-desktop-cell {
+    display: none;
+}
+
+.visible-mobile-inline {
+    display: inline;
+}
+
+.visible-mobile-block {
+    display: block;
+}
+
+/*X-small screen : Screen-width 767 below*/
+@media (max-width: 769px) {
+
+}
+
+/*Small screen : Screen-width 768-991*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navRWDStyle,
+    .navRWDStyle-20,
+    .RWDText-20,
+    .RWDText-24 {
+        font-size: 16px;
+    }
+
+    .visible-desktop-inline {
+        display: inline;
+    }
+
+    .visible-desktop-block {
+        display: block;
+    }
+
+    .visible-desktop-cell {
+        display: table-cell;
+        text-align: center;
+    }
+
+    .visible-mobile-inline,
+    .visible-mobile-block {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navRWDStyle,
+    .navRWDStyle-20,
+    .RWDText-20,
+    .RWDText-24 {
+        font-size: 16px;
+    }
+
+    .visible-desktop-inline {
+        display: inline;
+    }
+
+    .visible-desktop-block {
+        display: block;
+    }
+
+    .visible-desktop-cell {
+        display: table-cell;
+        text-align: center;
+    }
+
+    .visible-mobile-inline,
+    .visible-mobile-block {
+        display: none;
+    }
+}
