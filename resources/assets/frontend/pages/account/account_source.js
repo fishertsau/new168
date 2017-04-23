@@ -4,7 +4,7 @@ import postDevices from './PostDevices.vue'
 import otherInfo from './OtherInfo.vue'
 import collectedDevices from './CollectedDevices.vue'
 
-var pageInfo = {
+let pageInfo = {
     user: JSON.parse($('#userInfo').val()),
     userDevices: JSON.parse($('#userDevices').val()),
     likeDevices: JSON.parse($('#likeDevices').val()),
@@ -26,7 +26,7 @@ const store = new Vuex.Store({
         }
     },
     strict: true
-})
+});
 
 
 import VueRouter from 'vue-router'
