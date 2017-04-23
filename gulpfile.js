@@ -19,7 +19,7 @@ var dest = 'public/assets/';
 //var destImages = dest + 'images/';
 
 var devModules = {
-    frontend: ['device'],
+    frontend: ['device','account'],
     test: []
 };
 

@@ -3146,6 +3146,12 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
     data: function data() {
         return { test: 'I am the whole world.' };
+    },
+    beforeMount: function beforeMount() {
+        console.log('will mount profile');
+    },
+    mounted: function mounted() {
+        console.log('mounted profile');
     }
 };
 

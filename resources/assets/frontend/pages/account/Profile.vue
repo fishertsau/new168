@@ -15,6 +15,12 @@
     export default {
         data: function () {
             return {test: 'I am the whole world.'}
+        },
+        beforeMount(){
+            console.log('will mount profile');
+        },
+        mounted(){
+            console.log('mounted profile');
         }
     }
 </script>
